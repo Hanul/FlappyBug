@@ -31,8 +31,8 @@ FlappyBug.Game = CLASS({
 		let rootNode = SkyEngine.Node({
 			c : [
 			SkyEngine.Background({
-				speedX : 190,
 				src : FlappyBug.R('sky.jpg'),
+				followCameraRatio : 0.1,
 				isNotToRepeatY : true
 			}),
 			

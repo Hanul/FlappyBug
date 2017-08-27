@@ -10,6 +10,7 @@ FlappyBug('GameObject').Ground = CLASS({
 			y : (480 + 256) / 2,
 			src : FlappyBug.R('ground.png'),
 			isNotToRepeatY : true,
+			followCameraRatio : 1,
 			collider : SkyEngine.Rect({
 				speedX : 200,
 				width : 256,
