@@ -197,7 +197,7 @@ FlappyBug.Game = CLASS({
 				startPanel.remove();
 			});
 			
-			createPipeInterval = INTERVAL(2, RAR(() => {
+			createPipeInterval = SkyEngine.Interval(2, RAR(() => {
 				
 				let pipe = FlappyBug.GameObject.Pipe({
 					x : bug.getX() + 1000,
